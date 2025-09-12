@@ -6,9 +6,8 @@ import { siteConfig } from '@/lib/config'
  */
 export default function PoweredBy(props) {
   return (
-    /**
     <div className={`inline text-sm font-serif ${props.className || ''}`}>
-      <span className='mr-1'>Powered by</span>
+      <span className='mr-1'>Powered by a</span>
       <a
         href='https://github.com/tangly1024/NotionNext'
         className='underline justify-start'>
@@ -16,6 +15,5 @@ export default function PoweredBy(props) {
       </a>
       .
     </div>
-    */
   )
 }
