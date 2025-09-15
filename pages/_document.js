@@ -63,6 +63,10 @@ class MyDocument extends Document {
 
           {/* 预先设置深色模式，避免闪烁 */}
           <script dangerouslySetInnerHTML={{ __html: darkModeScript }} />
+          
+          {/* 插入 Google AdSense 脚本 */}
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9708421558145743"
+     crossorigin="anonymous"></script>
         </Head>
 
         <body>
