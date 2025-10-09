@@ -70,5 +70,4 @@ const BLOG = {
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
 
-
 module.exports = BLOG
